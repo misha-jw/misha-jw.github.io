@@ -3,12 +3,68 @@
 <html>
 
 <head>
-<link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="/src/output.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>misha's portfolio</title>
 </head>
 
 <body>
-<h1>hello</h1>
-<p class="bg-red-400">testing</p>
+    <div id="content" class="flex grow my-auto">
+        <main class="m-auto grow p-5">
+            <div class="grid grid-cols-1 gap-0 md:grid-cols-12 md:gap-6">
+                <div class="col-span-4 mb-5 sm:mb-0">
+                    <pre class="bg-mantle h-full" style="font-size:0.4em; letter-spacing: 0.2px;"></pre>
+                </div>
+                <div class="col-span-8 flex">
+                    <div class="my-auto">
+                        <p class="text-sm text-subtext0">hello hello, i'm</p>
+                        <div class="text-5xl font-bold mb-1 text-mauve">misha wu</div>
+                        <p>aspiring web developer & artist</p>
+                        <div class="mt-4">
+                            <i class="ph-fill ph-envelope-simple text-mauve relative" style="top:0.125em"></i>
+                            <a href="mailto:mishawu@outlook.com">mishawu@outlook.com</a><br>
+                            <i class="ph-fill ph-github-logo text-mauve relative" style="top:0.125em"></i>
+                            <a href="" target="_blank">misha-jw</a>
+                        </div>
+                        <h1 class="mt-4">skills</h1>
+                        <div class="sm:columns-2">
+                            <div><i class="ph-bold ph-browser"></i>
+                                HTML/CSS (+ basic JS)</div>
+                            <div><i class="ph-bold ph-code-simple"></i>
+                                (basic) python</div>
+                        </div>
+                        <p class="mt-2">more shall go here soon! >:D</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8">
+                <h1>projects</h1>
+                <div class="grid grid-cols-2 mt-4 gap-3">
+                    <div class="project-card">
+                        <div class="grid grid-cols-7 gap-1">
+                            <div class="col-span-6">
+                                <div class="text-mauve text-xl font-bold mb-2">shenzhen odyssey project</div>
+                                <p>website for an IB CAS project of my friends' and mine.</p>
+                            </div>
+                            <div class="text-right">
+                                <a class="text-5xl text-mauve no-underline" href="https://odysseysz.day"
+                                    target="_blank"><i class="ph-bold ph-arrow-square-out"></i></a>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <i class="ph-fill ph-wrench text-mauve"></i>
+                            HTML, CSS, JS
+                        </div>
+                    </div>
+                    <div class="project-card flex">
+                        <div class="text-subtext0 text-center w-full my-auto">nothing else here yet...</div>
+                    </div>
+                </div>
+            </div>
+            <footer>made with <span class="text-mauve">♡</span> & <a href="https://github.com/catppuccin/catppuccin"
+                    target="_blank" class="underline">catppuccin</a> ﹒ built w/ tailwind CSS</footer>
+        </main>
+    </div>
 </body>
 
 </html>

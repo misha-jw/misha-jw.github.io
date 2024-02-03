@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/misha-jw/misha-jw.github.io#readme",
   "devDependencies": {
+    "@catppuccin/tailwindcss": "^0.1.6",
     "tailwindcss": "^3.4.1"
   }
 }
